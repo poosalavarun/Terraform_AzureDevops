@@ -1,10 +1,6 @@
 # Configure the Azure provider
 provider "azurerm" {
     version = "~>1.32.0"
-    subscription_id = "e75fc036-3346-4760-a656-708ee1ac5a61"
-    client_id       = "506037b3-4a7a-4a96-a80a-9a0d035fa671"
-    client_secret   = "Bnq-4B17FcJ43l.WW.vtd~E7CZ.m3j7.90"
-    tenant_id       = "8ecf0be8-8c7c-4ef8-b34c-111ee2289099"
 }
 
 # Create a new resource group
