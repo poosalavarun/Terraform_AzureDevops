@@ -2,6 +2,11 @@
 provider "azurerm" {
     version = "~>1.32.0"
 }
+terraform {
+    backend "azurerm" {
+        key   = "terraform.tfstate"
+    }
+}
 
 # Create a new resource group
 resource "azurerm_resource_group" "rg" {
